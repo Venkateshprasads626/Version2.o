@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import './home.css'
 import logo from '../../Images/logo.png'
 import $ from 'jquery'
-import banner1 from '../../Images/banner1.png'
-import banner2 from '../../Images/banner2.svg'
-import banner3 from '../../Images/banner3.svg'
-import banner4 from '../../Images/banner4.svg'
-import banner5 from '../../Images/banner5.svg'
-import banner6 from '../../Images/banner6.svg'
-import banner7 from '../../Images/banner7.svg'
+import banner1 from '../../Images/banner1.svg'
+import banner21 from '../../Images/banner21.svg'
+import banner31 from '../../Images/banner31.svg'
+import banner41 from '../../Images/banner41.svg'
+import banner51 from '../../Images/banner51.svg'
+import banner61 from '../../Images/banner61.svg'
+import banner71 from '../../Images/banner71.svg'
 import whyusVector from '../../Images/whyusVector.svg'
 import member1 from '../../Images/member1.png'
 import Card1 from '../../Images/Card1.jpg'
@@ -101,7 +101,7 @@ class Home extends Component{
                     </ul>
                 </div>
                 <div class="main">
-                    <div className="home-page" id="home">
+                    <div className="home-page" id="home" >
                     <div className="Carousel-slider">
                                
                                 <button className="prev btn btn-primary" data-aos-delay="100"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
@@ -119,12 +119,12 @@ class Home extends Component{
                             
                             <div>
                                 <div className="innersiema">
-                                    <div ><img src={banner7} alt="" /></div>
-                                    <div><img src={banner2} alt="Siema image" /></div>
-                                    <div><img src={banner3} alt="Siema image" /></div>
-                                    <div><img src={banner4} alt="Siema image" /></div>
-                                    <div><img src={banner5} alt="Siema image" /></div>
-                                    <div><img src={banner6} alt="Siema image" /></div>
+                                    <div><img src={banner21} alt="" /></div>
+                                    <div><img src={banner31} alt="Siema image" /></div>
+                                    <div><img src={banner41} alt="Siema image" /></div>
+                                    <div><img src={banner51} alt="Siema image" /></div>
+                                    <div><img src={banner61} alt="Siema image" /></div>
+                                    <div><img src={banner71} alt="Siema image" /></div>
                                 </div>
                                 <button className="innerprev btn btn-primary"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
                                 <button className="innernext  btn btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
@@ -204,11 +204,11 @@ class Home extends Component{
                         </div>
                     </div>
                     <div className="home-page" id="socialmedia">
-                        {/* <div class="elfsight-app-3a82b3fb-3eaf-4bcc-9b75-02b10159b77b"></div> */}
+                        <div class="elfsight-app-3a82b3fb-3eaf-4bcc-9b75-02b10159b77b"></div>
                     </div>
                     <div className="home-page" id="whoweare">
                        <div className="Team-cards">
-                           <h1 style={{color: "#4B4B4B"}}>Team on Strike</h1>
+                           <h1 style={{color: "#4B4B4B"}} className="contact-header">Team on Strike</h1>
                            <div className="cards ">
                             <div class="card" data-aos="flip-down" style={{width: "18rem"}}>
                                     <img src={Card1} class="card-img-top" alt="..." />
@@ -240,7 +240,7 @@ class Home extends Component{
                                     </div>
                                 </div>
 
-                                <div class="card"  style={{width: "18rem"}}>
+                                <div class="card"  data-aos="fade-up" style={{width: "18rem"}}>
                                     <img src={Card4} class="card-img-top" alt="..." />
                                     <img src={member1} class="profile-img" alt="..." />
                                     <div class="card-body">
@@ -249,7 +249,7 @@ class Home extends Component{
                                         </p>
                                     </div>
                                 </div>
-                                <div class="card" style={{width: "18rem"}}>
+                                <div class="card" data-aos="fade-up"  style={{width: "18rem"}}>
                                     <img src={Card5} class="card-img-top" alt="..." />
                                     <img src={member1} class="profile-img" alt="..." />
                                     <div class="card-body">
@@ -259,7 +259,7 @@ class Home extends Component{
                                     </div>
                                 </div>
 
-                                <div class="card" data-aos="fade-up" style={{width: "18rem"}}>
+                                <div class="card" data-aos="fade-up"  data-aos-delay="800" style={{width: "18rem"}}>
                                     <img src={Card6} class="card-img-top" alt="..." />
                                     <img src={member1} class="profile-img" alt="..." />
                                     <div class="card-body">
@@ -271,33 +271,47 @@ class Home extends Component{
                         </div>
                        </div>
                     </div>
-                    <div className="home-page" id="contact">
+                    <div className="" id="contact">
                         <div className="contact-content">
                             <h1 style={{color:"#4B4B4B"}} className="contact-header">Stay In Touch</h1>
-                            <div className="row row12">
+                            <div className="row row51">
                                 <div className="map-image col-md-4">
                                     <img src={mapApp} alt="" />
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="textbox">
-                                        <input type="text" placeholder="Username" name="" value="" />
-                                    </div>
-                                    <div className="textbox">
-                                        <input type="text" placeholder="Username" name="" value="" />
+                                    <div className="form-box">
+                                        <div className="row row41">
+                                            <div className="col">
+                                                <div className="textboxtop">
+                                                    <input type="text" placeholder="Name*" />
+                                                </div>
+                                            </div>
+                                            <div className="col">
+                                                <div className="textboxtop">
+                                                    <input type="email" placeholder="Email*" />
+                                                </div>
+                                            </div>
+                                            <div className="textbox">
+                                                <input type="text" placeholder="Message*" />
+                                            </div>
+                                            <button type="button" className="contact-button"value="submit">Submit</button> 
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <p className="contact-text"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        No 12, 3rd cross, Patel Narayan<br/>
-                                        Reddy Layout, Ejipura, 6th Block,<br/>
-                                        Koramangala, Bengaluru, 560095
+                                <div className="col-md-4" >
+                                    <div className="address-text">
+                                    <p className="contact-text"><i class="fa fa-map-marker" aria-hidden="true"></i><span></span>
+                                                No 12, 3rd cross, Patel Narayan<br/>
+                                                Reddy Layout, Ejipura, 6th Block,<br/>
+                                                Koramangala, Bengaluru, 560095
                                     </p>
-                                    <p className="contact-text"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                        reachus@rushbeestudios.com
+                                    <p className="contact-text"><i class="fa fa-envelope-o" aria-hidden="true"></i><span></span>
+                                         reachus@rushbeestudios.com
                                     </p>
                                     <p className="phone-number"><i class="fa fa-phone" aria-hidden="true"></i>
                                         +91 8296503397
                                     </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
