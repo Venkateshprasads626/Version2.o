@@ -27,6 +27,221 @@ h6{
 }
 
 
+@media screen and (max-device-width: 767px) {
+  .logo{
+    width: 150px;
+    margin-left: 8.5px;
+  }
+ .sidenav {
+   height: 100%;
+   width: 180px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #151F2D;
+   overflow-x: hidden;
+   padding-top: 20px;
+ }
+ 
+ .sidenav a {
+   padding: 6px 8px 6px 16px;
+   text-decoration: none;
+   font-size: 14px;
+   color: white;
+   display: block;
+   text-align: start;
+   margin-top: 40px;
+ }
+ li{
+   list-style: none;
+ }
+ .sidenav a:hover{
+   color: #F7B500 !important;
+ }
+ 
+ ul li.active a{
+   color: #F7B500 !important;
+ }
+ 
+ .btn{
+   background-color: black;
+   border-radius: 40px;
+   width: 70px;
+ }
+ .fa-circle-o{
+   color: white;
+ }
+ .sidenav a:hover {
+   color: #f1f1f1;
+ }
+ 
+ .main {
+   margin-left: 180px; /* Same as the width of the sidenav */
+   font-size: 28px; /* Increased text to enable scrolling */
+ }
+ 
+ 
+ 
+ .home-page{
+   height: 100%;
+ }
+ .projects-page{
+   height: 100%;
+ }
+  
+ .innerprev{
+ position: absolute;
+ margin-top: -50px;
+ margin-left: -22.2%;
+ 
+ }
+ .innernext{
+ border: 50px;
+ margin-top: -50px;
+ position: absolute;
+ margin-left: -15%;
+ 
+ }
+ .prev{
+   z-index: 9899;
+   position: absolute;
+   margin-left: 80px;
+   margin-top: 13px;
+ }
+ .next{
+   z-index: 989;
+   position: absolute;
+   margin-left: 200px;
+   margin-top: 13px;
+ }
+ 
+ 
+ img {
+ width: 100%;
+ }
+ 
+ .siema {
+ width: 100% !important;
+ }
+ 
+ .innersiema{
+ height:100%;
+ }
+ .slide1-text{
+ position: absolute;
+ font-size: 15px;
+ margin-top: 80px;
+ margin-left: 140px;
+ }
+ 
+ /* this is whyus page */
+ #whyus{
+   height: 50vh;
+ }
+ .whyusvector{
+   width: 200px;
+   height: 200px;
+   margin-left: 2%;
+   margin-top: 15%;
+ }
+ .leftSvg{
+   margin-top: 50px;
+   float: left;
+ }
+ 
+ /* this is client page */
+ #clients{
+ 
+ }
+ 
+ .client-header1{
+   font-size: 20px;
+   color: white;
+ }
+ .client-header2{
+   font-size: 65px;
+   letter-spacing: 13px;
+   color: orange;
+   font-weight: bold;
+ }
+ .client-header3{
+   font-size: 12px;
+   color: white;
+ }
+ .text-slider{
+   height: 300px;
+   color: white;
+ }
+ 
+ /* Our Team Page */
+ .Team-cards{
+   margin-top: 20px;
+ }
+ .card{
+   width: 8rem !important;
+   height: 10rem;
+   background: #F7B500;
+   border: 1px solid #FFFFFF;
+   box-sizing: border-box;
+   border-radius: 10px;
+   margin: 10px;
+   display:inline-block;
+ }
+ .card-img-top{
+   width: 100%;
+   clip-path: polygon(0 0, 100% 0, 100% 68%, 0% 100%);
+   border-radius: 10px;
+ }
+ .profile-img{
+   width: 3rem;
+   height: 3rem;
+   justify-content: center;
+   align-items: center;
+   margin-top: -3.5rem;
+   z-index: 999;
+   position: relative;
+ }
+ .title{
+   font-size: 10px;
+   margin-top: -50px;
+ }
+ 
+ /* this is contact page */
+ #contact{
+   height: 60vh;
+   margin-bottom: 10%;
+ }
+ 
+ .contact-content{
+   margin-top: 20px;
+ }
+ .contact-header{
+   margin-top: 30px;
+ }
+ .contact-text{
+   color: white;
+   font-size: 12px;
+   text-align: start;
+ }
+ .phone-number{
+   color: white;
+   font-size: 12px;
+   text-align: start;
+ }
+ .fa-map-marker,.fa-envelope-o,.fa-phone{
+   color: orange;
+   font-size: 15px;
+ }
+ .textbox{
+   border-bottom: 1px solid #4caf50;
+ }
+ .textbox input{
+   border: none;
+   outline: none;
+   background: none;
+ }
+}
 /*this is why us */
 
 @media screen and (min-width: 768px) {
@@ -396,220 +611,4 @@ margin-left: 140px;
   display: block;
 }
  
-}
-
-@media screen and (max-device-width: 640px) {
-  .logo{
-    width: 150px;
-    margin-left: 8.5px;
-  }
- .sidenav {
-   height: 100%;
-   width: 180px;
-   position: fixed;
-   z-index: 1;
-   top: 0;
-   left: 0;
-   background-color: #151F2D;
-   overflow-x: hidden;
-   padding-top: 20px;
- }
- 
- .sidenav a {
-   padding: 6px 8px 6px 16px;
-   text-decoration: none;
-   font-size: 14px;
-   color: white;
-   display: block;
-   text-align: start;
-   margin-top: 40px;
- }
- li{
-   list-style: none;
- }
- .sidenav a:hover{
-   color: #F7B500 !important;
- }
- 
- ul li.active a{
-   color: #F7B500 !important;
- }
- 
- .btn{
-   background-color: black;
-   border-radius: 40px;
-   width: 70px;
- }
- .fa-circle-o{
-   color: white;
- }
- .sidenav a:hover {
-   color: #f1f1f1;
- }
- 
- .main {
-   margin-left: 180px; /* Same as the width of the sidenav */
-   font-size: 28px; /* Increased text to enable scrolling */
- }
- 
- 
- 
- .home-page{
-   height: 100%;
- }
- .projects-page{
-   height: 100%;
- }
-  
- .innerprev{
- position: absolute;
- margin-top: -50px;
- margin-left: -22.2%;
- 
- }
- .innernext{
- border: 50px;
- margin-top: -50px;
- position: absolute;
- margin-left: -15%;
- 
- }
- .prev{
-   z-index: 9899;
-   position: absolute;
-   margin-left: 80px;
-   margin-top: 13px;
- }
- .next{
-   z-index: 989;
-   position: absolute;
-   margin-left: 200px;
-   margin-top: 13px;
- }
- 
- 
- img {
- width: 100%;
- }
- 
- .siema {
- width: 100% !important;
- }
- 
- .innersiema{
- height:100%;
- }
- .slide1-text{
- position: absolute;
- font-size: 15px;
- margin-top: 80px;
- margin-left: 140px;
- }
- 
- /* this is whyus page */
- #whyus{
-   height: 50vh;
- }
- .whyusvector{
-   width: 200px;
-   height: 200px;
-   margin-left: 2%;
-   margin-top: 15%;
- }
- .leftSvg{
-   margin-top: 50px;
-   float: left;
- }
- 
- /* this is client page */
- #clients{
- 
- }
- 
- .client-header1{
-   font-size: 20px;
-   color: white;
- }
- .client-header2{
-   font-size: 65px;
-   letter-spacing: 13px;
-   color: orange;
-   font-weight: bold;
- }
- .client-header3{
-   font-size: 12px;
-   color: white;
- }
- .text-slider{
-   height: 300px;
-   color: white;
- }
- 
- /* Our Team Page */
- .Team-cards{
-   margin-top: 20px;
- }
- .card{
-   width: 8rem !important;
-   height: 10rem;
-   background: #F7B500;
-   border: 1px solid #FFFFFF;
-   box-sizing: border-box;
-   border-radius: 10px;
-   margin: 10px;
-   display:inline-block;
- }
- .card-img-top{
-   width: 100%;
-   clip-path: polygon(0 0, 100% 0, 100% 68%, 0% 100%);
-   border-radius: 10px;
- }
- .profile-img{
-   width: 3rem;
-   height: 3rem;
-   justify-content: center;
-   align-items: center;
-   margin-top: -3.5rem;
-   z-index: 999;
-   position: relative;
- }
- .title{
-   font-size: 10px;
-   margin-top: -50px;
- }
- 
- /* this is contact page */
- #contact{
-   height: 60vh;
-   margin-bottom: 10%;
- }
- 
- .contact-content{
-   margin-top: 20px;
- }
- .contact-header{
-   margin-top: 30px;
- }
- .contact-text{
-   color: white;
-   font-size: 12px;
-   text-align: start;
- }
- .phone-number{
-   color: white;
-   font-size: 12px;
-   text-align: start;
- }
- .fa-map-marker,.fa-envelope-o,.fa-phone{
-   color: orange;
-   font-size: 15px;
- }
- .textbox{
-   border-bottom: 1px solid #4caf50;
- }
- .textbox input{
-   border: none;
-   outline: none;
-   background: none;
- }
 }
