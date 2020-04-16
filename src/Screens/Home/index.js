@@ -8,6 +8,7 @@ import banner3 from '../../Images/banner3.svg'
 import banner4 from '../../Images/banner4.svg'
 import banner5 from '../../Images/banner5.svg'
 import banner6 from '../../Images/banner6.svg'
+import banner7 from '../../Images/banner7.svg'
 import whyusVector from '../../Images/whyusVector.svg'
 import member1 from '../../Images/member1.png'
 import Card1 from '../../Images/Card1.jpg'
@@ -118,7 +119,7 @@ class Home extends Component{
                             
                             <div>
                                 <div className="innersiema">
-                             
+                                    <div ><img src={banner7} alt="" /></div>
                                     <div><img src={banner2} alt="Siema image" /></div>
                                     <div><img src={banner3} alt="Siema image" /></div>
                                     <div><img src={banner4} alt="Siema image" /></div>
