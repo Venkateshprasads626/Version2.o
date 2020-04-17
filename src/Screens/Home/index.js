@@ -275,7 +275,7 @@ class Home extends Component{
                         <div className="contact-content">
                             <h1 style={{color:"#4B4B4B"}} className="contact-header">Stay In Touch</h1>
                             <div className="row row51">
-                                <div className="map-image col-md-4">
+                                <div className="col-md-4 map-image">
                                     <img src={mapApp} alt="" />
                                 </div>
                                 <div className="col-md-4">
