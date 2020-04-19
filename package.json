@@ -10,6 +10,7 @@
     "jquery": "^3.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-particles-js": "^3.0.3",
     "react-scripts": "3.4.1",
     "siema": "^1.5.1"
   },

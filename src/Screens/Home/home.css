@@ -25,7 +25,20 @@ h6{
   display: none;
   position: absolute;
 }
+@keyframes dash {
+  from {
+    stroke-dashoffset: 816;    
+  }
+  to {
+    stroke-dashoffset: 0;    
+  }
+} 
 
+#bigCirclesSvg path {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;  
+  animation: dash 5s linear;
+}
 
 @media screen and (max-device-width: 767px) {
 
@@ -48,7 +61,7 @@ h6{
   .sidenav a {
     padding: 0px 0px 0px 10px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     color: white;
     display: block;
     text-align: start;
@@ -65,13 +78,13 @@ h6{
     color: #F7B500 !important;
   }
   ul{
-    margin-left: -15px;
-    margin-top: 20%;
+    margin-left: -20px;
+    margin-top: 15%;
   }
   li {
     overflow: hidden;
     position: relative;
-    padding: 0 0 50px 10px;
+    padding: 0 0 18px 10px;
 
     }
     li::before {
@@ -164,16 +177,27 @@ h6{
 
   /* this is whyus page */
 
-  /* .whyusvector{
-    width: 200px;
-    height: 200px;
-    margin-left: 2%;
-    margin-top: 15%;
+  #whyus{
+    height: 115vh;
   }
-  .leftSvg{
-    margin-top: 100px;
-    float: left;
-  } */
+
+  .whySection .leftSvg {
+    left: 0;
+    z-index: 0;
+    top: -380px;
+}
+.whySection .leftSvg svg{
+   width: 220px;
+   float: left;
+}
+.Rightphoto{
+  width: 260px;
+  height: 260px;
+  float: right;
+  margin-top: 19%;
+  margin-right: 2%;
+}
+
 
   /* this is client page */
 
@@ -449,18 +473,28 @@ h6{
     }
 
     /* this is whyus page */
-
-    /* .whyusvector{
-      width: 200px;
-      height: 200px;
-      margin-left: 2%;
-      margin-top: 15%;
+    #whyus{
+      height: 80vh;
     }
-    .leftSvg{
-      margin-top: 100px;
-      float: left;
-    } */
 
+    .whySection .leftSvg {
+      left: 0;
+      z-index: 0;
+      top: -380px;
+  }
+  .whySection .leftSvg svg{
+     width: 220px;
+     float: left;
+  }
+  .Rightphoto{
+    width: 260px;
+    height: 260px;
+    float: right;
+    margin-top: 19%;
+    margin-right: 2%;
+  }
+
+  
     /* this is client page */
   
     .client-header1{
@@ -625,6 +659,18 @@ h6{
   .innernext{
     margin-left: -17%;
   }
+  .whySection .leftSvg svg{
+    width: 300px;
+    float: left;
+ }
+ .Rightphoto{
+   width: 330px;
+   height: 330px;
+   float: right;
+   margin-top: 19%;
+   margin-right: 3%;
+ }
+
   #clients{
     margin-bottom: 10%;
   }
@@ -688,6 +734,19 @@ h6{
     border-radius: 50px;
     width: 80px;
   }
+  #whyus{
+    height: 125vh;
+  }
+  .whySection .leftSvg svg{
+    width: 500px;
+    float: left;
+ }
+ .Rightphoto{
+   width: 500px;
+   height: 500px;
+   float: right;
+   margin-top: 21%;
+ }
   .client-header1{
     font-size: 25px;
     color: white;

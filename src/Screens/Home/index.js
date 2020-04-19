@@ -37,6 +37,7 @@ import Projects from '../../components/Projects'
 
 class Home extends Component{
     componentDidMount = () =>{
+
         // outer
         const mySiema = new siema();
         const prev = document.querySelector('.prev');
@@ -59,7 +60,11 @@ class Home extends Component{
         $(document).on('click', 'ul li', function(){
             $(this).addClass('active').siblings().removeClass('active')
         })
-         
+    
+      
+          setInterval(() => mySiema.next(), 5000)
+          setInterval(() => myInnerSiema.next(), 7000)
+        
     }
     render() {
         return(
@@ -140,14 +145,18 @@ class Home extends Component{
 
                     <div className="home-page" id="whyus">
                         <div className="whyus">
-                            <div className="leftSvg">
-                                <svg height="300" width="300">
-                                    <circle className="circle" cx="0" cy="120" r="180" stroke="orange" stroke-width="2" fill="#151F2D" />
-                                    <circle className="circle" cx="0" cy="100" r="100" stroke="orange" stroke-width="2" fill="#151F2D" />
-                                </svg> 
+                            <div className="whySection">
+                            <div class="leftSvg"  data-aos-easing="linear" data-aos-duration="1200">
+                                <svg id="bigCirclesSvg" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns="xlink=https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 780 1560" enable-background="new 0 0 780 1560" xml="space=preserve">
+                                    <path className="lineBig" stroke-dasharray="1000 1000" stroke-dashoffset="1000" fill="none" stroke="#F7B500" stroke-width="2" d="M0,6c427.5,0,774,341.5,774,769S427.5,1554,0,1554"></path>
+                                    <path className="lineMedium" fill="none" stroke="#F7B500" stroke-width="2" stroke-miterlimit="10" d="M0,199.5c320.6,0,580.5,254.9,580.5,575.5S320.6,1360.5,0,1360.5"></path>
+                                </svg>
                             </div>
-                  
-                            <img src={whyusVector} className="whyusvector"/>
+                            </div>
+                            <div className="Rightphoto">
+                                <img src={whyusVector} className="whyusvector"/>
+                            </div>
+                           
                         </div>
                     </div>
                    {/* This is client page */}
@@ -279,24 +288,26 @@ class Home extends Component{
                                     <img src={mapApp} alt="" />
                                 </div>
                                 <div className="col-md-4">
+                                    <form name="contact" method="POST" data-netlify="true">
                                     <div className="form-box">
                                         <div className="row row41">
                                             <div className="col">
                                                 <div className="textboxtop">
-                                                    <input type="text" placeholder="Name*" />
+                                                    <input type="text" placeholder="Name*" name="name" />
                                                 </div>
                                             </div>
                                             <div className="col">
                                                 <div className="textboxtop">
-                                                    <input type="email" placeholder="Email*" />
+                                                    <input type="email" placeholder="Email*" name="email" />
                                                 </div>
                                             </div>
                                             <div className="textbox">
-                                                <input type="text" placeholder="Message*" />
+                                                <input type="text" placeholder="Message*" name="message"/>
                                             </div>
-                                            <button type="button" className="contact-button"value="submit">Submit</button> 
+                                            <button type="submit" className="contact-button" value="submit">Submit</button> 
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
                                 <div className="col-md-4" >
                                     <div className="address-text">
@@ -328,4 +339,5 @@ class Home extends Component{
 }
 
 export default Home
+
 
