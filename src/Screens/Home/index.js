@@ -109,8 +109,8 @@ class Home extends Component{
                     <div className="home-page" id="home" >
                     <div className="Carousel-slider">
                                
-                                <button className="prev btn btn-primary" data-aos-delay="100"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-                                <button className="next btn btn-primary" data-aos-delay="100"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                <button className="prev btn" data-aos-delay="100"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                                <button className="next btn" data-aos-delay="100"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                         <div className="siema" data-aos-delay="100"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300">
                                
                                 <div>
@@ -131,8 +131,8 @@ class Home extends Component{
                                     <div><img src={banner61} alt="Siema image" /></div>
                                     <div><img src={banner71} alt="Siema image" /></div>
                                 </div>
-                                <button className="innerprev btn btn-primary"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-                                <button className="innernext  btn btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                <button className="innerprev btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                                <button className="innernext btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
             
@@ -202,9 +202,9 @@ class Home extends Component{
                                 <img src={Project8} class="d-block w-100" alt="..." />
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                        <a className="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
