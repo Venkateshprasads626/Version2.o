@@ -83,6 +83,7 @@ class Home extends Component{
             <div className="Complete-page">
                    
             <div className="Full-page">
+           
                <div class="sidenav">
                    <div className="logo">
                        <img src={logo} alt="" className="logo"/>
@@ -248,38 +249,7 @@ class Home extends Component{
                         {/* This is projects page */}
 
                     <div className="Projects-page home-page" id="projects" data-aos="fade-down" data-aos-duration="3000">
-                    <div id="particle-container">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                </div>
+            
                         <div className="project-content">
                             <h1 className="project-header">Some of our key projects</h1>
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
@@ -323,8 +293,9 @@ class Home extends Component{
                     <div className="home-page" id="socialmedia">
                         <div class="elfsight-app-3a82b3fb-3eaf-4bcc-9b75-02b10159b77b"></div>
                     </div>
-                    <div className="home-page" id="whoweare">
-                    <div id="particle-container">
+              
+                       <div className="Team-cards" id="whoweare">
+                       <div id="particle-container">
                     <div class="particle"></div>
                     <div class="particle"></div>
                     <div class="particle"></div>
@@ -356,7 +327,6 @@ class Home extends Component{
                     <div class="particle"></div>
                     <div class="particle"></div>
                 </div>
-                       <div className="Team-cards">
                            <h1 style={{color: "#98B1D5"}} className="Team-header">Team on Strike</h1>
                            <div className="cards ">
                             <div class="card" data-aos="flip-down" style={{width: "18rem"}}>
@@ -419,58 +389,140 @@ class Home extends Component{
                                 </div>
                         </div>
                        </div>
-                    </div>
-                    <div className="home-page" id="contact">
-                        <div className="contact-content">
-                            <h1 style={{color:"#4B4B4B"}} className="contact-header">Stay In Touch</h1>
-                            <div className="row row51">
-                                <div className="col-md-4 map-image">
-                                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391281,77.6243349,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15d42c30f4dd:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank"   ><img src={mapApp} alt="" className="Map-image"/></a>
-                                </div>
-                                <div className="col-md-4">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                   
-                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name*" />
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                   
-                                            <input type="email" class="form-control" id="inputPassword4" placeholder="Email*"/>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="inputAddress" placeholder="Message*" />
-                                    </div>
-                                    <div className="text-center">
-                                        <button type="submit" class="btn btnprimary text-center">Submit</button>
-                                    </div>
-                       
-                                </form>
-                                </div>                          
-                           
-                          
-                                <div className="col-md-4" >
-                                    <div className="address-text">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i><p className="contact-text">
-                                                No 12, 3rd cross, Patel Narayan<br/>
-                                                Reddy Layout, Ejipura, 6th Block,<br/>
-                                                Koramangala, Bengaluru, 560095
-                                    </p>
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i><p className="contact-text">
-                                         reachus@rushbeestudios.com
-                                    </p>
-                                    <i class="fa fa-phone" aria-hidden="true"></i><p className="phone-number">
-                                        +91 8296503397
-                                    </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                       <div className="home-page" id="contact">
+                       <div id="particle-container">
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
                 </div>
-            </div>
+                       <div class="container my-5 py-5 z-depth-1">
+                            <section class="px-md-5 mx-md-5 text-center dark-grey-text">
+
+                            <style>
+                          
+                            </style>
+
+                          
+                            <div id="map-container-google-1" class="z-depth-1 map-container mb-5">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5108730366255!2d77.62433485093614!3d12.93912811904483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15d42c30f4dd%3A0x10217d16a27c5108!2sRushbee%20Studio&#39;s!5e0!3m2!1sen!2sin!4v1587407760515!5m2!1sen!2sin" frameborder="0"
+                                style={{border:"0"}} allowfullscreen></iframe>
+                            </div>
+          
+
+              
+                            <div class="row d-flex justify-content-center mb-5">
+
+                                <div class="col-md-6 text-center">
+
+                                <h3 class="font-weight-bold">Contact Us</h3>
+
+                     
+                                <div class="md-form md-outline mt-3">
+                                    <input type="email" id="form-email" class="form-control" placeholder="Email*" />
+                             
+                                </div>
+
+                              
+                                <div class="md-form md-outline">
+                                    <input type="text" id="form-subject" class="form-control" placeholder="Name*"/>
+                       
+                                </div>
+
+                        
+                                <div class="md-form md-outline mb-3">
+                                    <textarea id="form-message" class="md-textarea form-control" rows="5" placeholder="Mobile no/Message*"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i class="fa fa-paper-plane ml-2" aria-hidden="true"></i></button>
+
+                                </div>
+                        
+
+                            </div>
+                         
+
+                       
+                            <div class="row text-center">
+
+                           
+                                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+
+                                <i class="fa fa-map-marker  blue-text" aria-hidden="true"></i>
+
+                                <p class="font-weight-bold my-3">Address</p>
+
+                                <p className="text-muted">No 12, 3rd cross, PNR Layout<br/>Kormangala Bangalore
+                                </p>
+
+                                </div>
+                              
+
+                          
+                                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+
+                                    <i class="fa fa-phone   blue-text" aria-hidden="true"></i>
+
+                                    <p class="font-weight-bold my-3">Phone number</p>
+
+                                    <p class="text-muted">+91 8296503397</p>
+
+                                </div>
+                                
+
+                          
+                                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+
+                                    <i class="fa fa-envelope   blue-text" aria-hidden="true"></i>
+
+                                    <p class="font-weight-bold my-3">E-mail</p>
+
+                                    <p class="text-muted">reachus@rushbeestudios.com</p>
+
+                                </div>
+                        
+
+                            </div>
+                        
+
+
+                            </section>
+                        
+
+
+                            </div>
+
+                       </div>
+                    </div>
+                   
+                </div>
+       
             <div id="mobileview">
                 <img src={logomobile} alt="" className="mobilelogo"/>
                 <iframe src="https://giphy.com/embed/Vc0B9I5lS4wI2qoMjI" width="480" height="457" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -479,12 +531,11 @@ class Home extends Component{
                 </p>
             </div>
             </div>
-          
+
           
         );
     }
 }
 
 export default Home
-
 

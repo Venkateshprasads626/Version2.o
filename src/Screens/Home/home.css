@@ -268,59 +268,7 @@ iframe{
   }
 
   /* this is contact page */
-  #contact{
-    position: absolute;
-    height: 100vh;
-  }
-  .contact-header{
-    font-size: 25px;
-  }
-  .contact-text{
-    font-size: 12px;
-    text-align: start;
-    color: white;
-    margin-left: 20px;
-  }
-  .phone-number{
-    font-size: 13px;
-    text-align: start;
-    color: white;
-    margin-left: 30px;
-  }
-  form{
-    width: 100%;
-  }
-  .text-center{
-    margin: 0 auto;
-  }
-  .btnprimary{
-    border: 50px;
-    color: white;
-    background: orange;
-    width: 6rem;
-    text-align: center !important;
-    margin:0 auto !important;
-    float: none !important;
-  }
-
-  .form-group input{
-    background: #151F2D;
-  }
-  .Map-image{
-    height: 180px;
-  }
- .fa-map-marker,.fa-envelope-o,.fa-phone{
-   color: orange;
-   font-size: 15px;
-   margin-left: -102px;
-   margin-top: 1px;
-   position: absolute;
- }
- .col-md-4{
-   display: flex;
-   width: 32%;
- }
-
+  
 }
 
 
@@ -536,55 +484,46 @@ iframe{
     }
 
     /* this is contact page */
-    #contact{
-      position: absolute;
-      height: 100vh;
-    }
-    .contact-header{
-      font-size: 25px;
-    }
-    .contact-text{
-      font-size: 12px;
-      text-align: start;
-      color: white;
-      margin-left: 30px;
-    }
-    .phone-number{
-      font-size: 13px;
-      text-align: start;
-      color: white;
-      margin-left: 30px;
-    }
-    form{
+   
+    /* .contact-section{
       width: 100%;
-    }
-    .text-center{
-      margin: 0 auto;
-    }
-    .btnprimary{
-      border: 50px;
-      color: white;
-      background: orange;
-      width: 6rem;
-      text-align: center !important;
-      margin:0 auto !important;
-      float: none !important;
-    }
-  
-    .form-group input{
-      background: #151F2D;
-    }
-    .Map-image{
-      height: 180px;
-    }
-   .fa-map-marker,.fa-envelope-o,.fa-phone{
-     color: orange;
-     font-size: 15px;
-     margin-left: -80px;
-     margin-top: 1px;
-     position: absolute;
-   }
+      background: red;
+      height: 300px;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    } */
+    .map-container {
+      height: 200px;
+      position: relative;
+      }
 
+      .map-container iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      }
+      .btn-info{
+        background-color: orange !important;
+        width: 10rem !important;
+        color: black;
+        border: none;
+        font-size: 20px;
+      }
+      label{
+        font-size: 20px;
+      }
+      .md-form input{
+        margin-bottom: 6%;
+      }
+      .text-muted{
+        font-size: 15px;
+       
+      }
+      .my-3{
+        font-size: 15px;
+      }
 }
 
 
@@ -659,37 +598,7 @@ iframe{
     margin-top: -45px;
   }
   /* this is contact page */
-  form{
-    width: 100%;
-  }
-  .text-center{
-    margin: 0 auto;
-  }
-  .Map-image{
-    width: 100%;
-    height: 280px;
-  }
-  .btnprimary{
-    border: 50px;
-    color: white;
-    background: orange;
-    width: 6rem;
-    text-align: center !important;
-    margin:0 auto !important;
-    float: none !important;
-  }
-
-  .form-group input{
-    background: #151F2D;
-  }
-  .fa-map-marker,.fa-envelope-o,.fa-phone{
-    color: orange;
-    font-size: 15px;
-    margin-left: -120px;
-    margin-top: 1px;
-    position: absolute;
-  }
-  
+ 
 }
 @media screen and (min-width: 1024) {
   .logo{
@@ -859,52 +768,7 @@ iframe{
   }
   
   /* this is contact page */
-  .contact-content{
-    width: 100%;
- 
- 
-    margin-top: 10%;
-
-  }
-  .contact-text{
-    font-size: 22px;
-  }
-  .phone-number{
-    font-size: 25px;
-  }
-  .Map-image{
-    height: 300px;
-  }
-  form{
-    width: 100%;
-  }
-  .text-center{
-    margin: 0 auto;
-  }
-  .form-group{
-    margin-top: 5%;
-  }
-  .btnprimary{
-    border: 50px;
-    color: white;
-    background: orange;
-    width: 6rem;
-    text-align: center !important;
-    margin:0 auto !important;
-    float: none !important;
-  }
-
-  .form-group input{
-    margin-bottom: 10%;
-    background: #151F2D;
-  }
-  .fa-map-marker,.fa-envelope-o,.fa-phone{
-    color: orange;
-    font-size: 25px;
-    margin-left: -200px;
-    margin-top: 5px;
-    position: absolute;
-  }
+  
 }
  
 @media screen and (min-width: 1440px) {
@@ -922,13 +786,7 @@ iframe{
   }
  
 }
-@media screen and (min-width: 2560px) {
-  #contact{
-   
-    width: 90%;
-  }
 
-}
 
 
 
