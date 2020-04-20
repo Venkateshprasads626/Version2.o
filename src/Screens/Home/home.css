@@ -947,7 +947,8 @@ iframe{
     display: block;
   }
   body{
-    background: #b8dff0;
+    background: #4E5174;
+    overflow: hidden;
   }
 }
 
