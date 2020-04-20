@@ -13,8 +13,8 @@ import whyusVector from '../../Images/whyusVector.svg'
 import member1 from '../../Images/member1.svg'
 import member2 from '../../Images/member2.svg'
 import member3 from '../../Images/member3.svg'
-import member4 from '../../Images/member4.svg'
-import member5 from '../../Images/member5.svg'
+import member4 from '../../Images/member4.jpeg'
+import member5 from '../../Images/member5.jpeg'
 import member6 from '../../Images/member6.svg'
 import logomobile from '../../Images/logomobile.svg'
 
@@ -264,7 +264,7 @@ class Home extends Component{
                                     <img src={member4} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            N Manogaran <br/><br/>Design<br/>Consultant 
+                                            Kamal <br/><br/>Design<br/>Consultant 
                                         </p>
                                     </div>
                                 </div>
@@ -298,19 +298,19 @@ class Home extends Component{
                                 <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391281,77.6243349,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15d42c30f4dd:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank"   ><img src={mapApp} alt="" className="Map-image"/></a>
                                 </div>
                                 <div className="col-md-4">
-                                <form>
+                                <form name="contact" method="POST" data-netlify="true">
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
                                    
-                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name*" />
+                                            <input type="text" class="form-control" id="inputEmail4" name="name"placeholder="Name*" />
                                         </div>
                                         <div class="form-group col-md-6">
                                    
-                                            <input type="email" class="form-control" id="inputPassword4" placeholder="Email*"/>
+                                            <input type="email" class="form-control" id="inputPassword4" name="email" placeholder="Email*"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="inputAddress" placeholder="Message*" />
+                                        <input type="text" class="form-control" id="inputAddress" name="message" placeholder="Message*" />
                                     </div>
                                     <div className="text-center">
                                         <button type="submit" class="btn btnprimary text-center">Submit</button>
@@ -342,9 +342,9 @@ class Home extends Component{
                 </div>
             </div>
             <div id="mobileview">
-                <img src={logomobile} alt="" className="mobilelogo"/>
+                <img src={logo} alt="" className="mobilelogo"/>
                 <iframe src="https://giphy.com/embed/Vc0B9I5lS4wI2qoMjI" width="480" height="457" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                <p style={{color: "black",  margin: "0 auto"}}>
+                <p style={{color: "white",  margin: "0 auto"}}>
                     For a better viewing experience,<br/>Kindly rotate your phone.
                 </p>
             </div>

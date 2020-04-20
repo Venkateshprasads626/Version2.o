@@ -288,7 +288,7 @@ iframe{
     margin-left: 30px;
   }
   form{
-    width: 50%;
+    width: 100%;
   }
   .text-center{
     margin: 0 auto;
@@ -312,9 +312,16 @@ iframe{
  .fa-map-marker,.fa-envelope-o,.fa-phone{
    color: orange;
    font-size: 15px;
-   margin-left: -80px;
+   margin-left: -100px;
    margin-top: 1px;
    position: absolute;
+ }
+ .col-md-4{
+   display: flex;
+   width: 31%;
+ }
+ .row51{
+   margin-top: 55px;
  }
 }
 
@@ -947,7 +954,7 @@ iframe{
     display: block;
   }
   body{
-    background: #4E5174;
+    background:#151F2D;
     overflow: hidden;
   }
 }
