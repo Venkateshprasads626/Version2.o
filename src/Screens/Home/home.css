@@ -279,7 +279,7 @@ iframe{
     font-size: 12px;
     text-align: start;
     color: white;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .phone-number{
     font-size: 13px;
@@ -312,24 +312,22 @@ iframe{
  .fa-map-marker,.fa-envelope-o,.fa-phone{
    color: orange;
    font-size: 15px;
-   margin-left: -100px;
+   margin-left: -102px;
    margin-top: 1px;
    position: absolute;
  }
  .col-md-4{
    display: flex;
-   width: 31%;
+   width: 32%;
  }
- .row51{
-   margin-top: 55px;
- }
+
 }
 
 
 
 
 @media screen and (min-width: 768px) {
-    .logo{
+     .logo{
       width: 150px;
       margin-left: 8.5px;
     }
@@ -691,6 +689,7 @@ iframe{
     margin-top: 1px;
     position: absolute;
   }
+  
 }
 @media screen and (min-width: 1024) {
   .logo{
@@ -860,7 +859,6 @@ iframe{
   }
   
   /* this is contact page */
-
   .contact-content{
     width: 100%;
  
@@ -910,6 +908,8 @@ iframe{
 }
  
 @media screen and (min-width: 1440px) {
+
+ 
   .leftSvg{
     width: 680px;
   }
@@ -920,16 +920,14 @@ iframe{
     margin-left: 52%;
     margin-top: -560px;
   }
-@media screen and (min-width: 2560px) {
-  .fa-map-marker,.fa-envelope-o,.fa-phone{
-    color: orange;
-    font-size: 25px;
-    margin-left: -240px;
-    margin-top: 5px;
-    position: absolute;
-  }
-}
  
+}
+@media screen and (min-width: 2560px) {
+  #contact{
+   
+    width: 90%;
+  }
+
 }
 
 
@@ -957,11 +955,16 @@ iframe{
     background:#151F2D;
     overflow: hidden;
   }
+  .elfsight-app-67a94942-38ce-4f92-a02d-469974cea16b{
+    display: none;
+  }
 }
 
 @media screen and (orientation:landscape) {
 .Full-page{
   display: block;
 }
- 
+.elfsight-app-67a94942-38ce-4f92-a02d-469974cea16b{
+  display: block;
+}
 }
