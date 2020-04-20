@@ -62,9 +62,7 @@ class Home extends Component{
         })
     
       
-          setInterval(() => mySiema.next(), 5000)
-          setInterval(() => myInnerSiema.next(), 7000)
-        
+     
     }
     render() {
         return(

@@ -55,7 +55,6 @@ h6{
     left: 0;
     background-color: #151F2D;
     overflow-x: hidden;
-    padding-top: 10px;
   }
 
   .sidenav a {
@@ -65,7 +64,6 @@ h6{
     color: white;
     display: block;
     text-align: start;
-
   }
   li{
     list-style: none;
@@ -79,13 +77,12 @@ h6{
   }
   ul{
     margin-left: -20px;
-    margin-top: 15%;
+    margin-top: 8%;
   }
   li {
     overflow: hidden;
     position: relative;
-    padding: 0 0 18px 10px;
-
+    padding: 0 0 13px 10px;
     }
     li::before {
       content: '';
@@ -183,6 +180,7 @@ h6{
 
   #whyus{
     height: 130vh;
+
   }
 
   .whySection .leftSvg {
@@ -341,6 +339,25 @@ h6{
   }
 }
 
+/* @media screen and (max-width: 860px) {
+  .sidenav{
+    padding-top: 10px !important;
+  }
+  .sidenav a{
+    font-size: 12px;
+    padding: 0px 0px 0px 10px !important;
+  }
+  li {
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 12px 10px !important;
+  }
+  ul{
+    margin-left: -20px;
+    margin-top: 3% !important;
+  }
+
+} */
 
 
 @media screen and (min-width: 768px) {
@@ -458,7 +475,12 @@ h6{
       margin-top: 13px;
     }
 
-
+    .fa-arrow-left,.fa-arrow-right{
+      color: #F7B500;
+    }
+    .btn{
+      border: 1px solid white;
+    }
     img {
     width: 100%;
     }
