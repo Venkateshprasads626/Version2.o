@@ -268,13 +268,49 @@ iframe{
   }
 
   /* this is contact page */
-  
+  .map-container {
+    height: 200px;
+    position: relative;
+    }
+
+    .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+    .btn-info{
+      background-color: orange !important;
+      width: 10rem !important;
+      color: black;
+      border: none;
+      font-size: 20px;
+    }
+    label{
+      font-size: 20px;
+    }
+    .md-form input{
+      margin-bottom: 6%;
+    }
+    .text-muted{
+      font-size: 15px;
+     
+    }
+    .my-3{
+      font-size: 15px;
+    }
+
+
 }
 
 
 
 
 @media screen and (min-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
      .logo{
       width: 150px;
       margin-left: 8.5px;
@@ -514,7 +550,12 @@ iframe{
       label{
         font-size: 20px;
       }
+      .md-form{
+        width: 300px;
+        margin-left: -40%;
+      }
       .md-form input{
+       
         margin-bottom: 6%;
       }
       .text-muted{
@@ -524,6 +565,11 @@ iframe{
       .my-3{
         font-size: 15px;
       }
+      .headers{
+        font-size: 20px;
+        color: #98B1D5;
+      }
+  
 }
 
 
@@ -598,7 +644,10 @@ iframe{
     margin-top: -45px;
   }
   /* this is contact page */
- 
+  .md-form{
+    width: 300px;
+    margin-left: 0%;
+  }
 }
 @media screen and (min-width: 1024) {
   .logo{
@@ -766,9 +815,15 @@ iframe{
     font-size: 20px;
     margin-top: -5px;
   }
+  .headers{
+    font-size: 30px;
+  }
   
   /* this is contact page */
-  
+  .md-form{
+    width: 300px;
+    margin-left: 15%;
+  }
 }
  
 @media screen and (min-width: 1440px) {

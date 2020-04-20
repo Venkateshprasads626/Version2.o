@@ -157,38 +157,7 @@ class Home extends Component{
                     {/* this is why us page  */}
 
                     <div className="home-page" id="whyus">
-                    <div id="particle-container">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                </div>
+ 
                         <div>
                         <div className="whyus-section">
                             <div className="leftSvg">
@@ -203,38 +172,7 @@ class Home extends Component{
                     </div>
                    {/* This is client page */}
                     <div className="home-page" id="clients" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
-                    <div id="particle-container">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                </div>
+              
                         <div className="clients-content">
                             <div className="client-headers">
                                 <h3 className="client-header1">Over</h3>
@@ -251,7 +189,7 @@ class Home extends Component{
                     <div className="Projects-page home-page" id="projects" data-aos="fade-down" data-aos-duration="3000">
             
                         <div className="project-content">
-                            <h1 className="project-header">Some of our key projects</h1>
+                            <h1 className="headers">Some of our key projects</h1>
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -295,39 +233,7 @@ class Home extends Component{
                     </div>
               
                        <div className="Team-cards" id="whoweare">
-                       <div id="particle-container">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                </div>
-                           <h1 style={{color: "#98B1D5"}} className="Team-header">Team on Strike</h1>
+                           <h1 style={{color: "#98B1D5"}} className="headers">Team on Strike</h1>
                            <div className="cards ">
                             <div class="card" data-aos="flip-down" style={{width: "18rem"}}>
                                     <img src={Card1} class="card-img-top" alt="..." />
@@ -359,12 +265,12 @@ class Home extends Component{
                                     </div>
                                 </div>
 
-                                <div class="card"   data-aos="flip-down" style={{width: "18rem"}}>
+                                <div class="card" data-aos="flip-down" style={{width: "18rem"}}>
                                     <img src={Card4} class="card-img-top" alt="..." />
                                     <img src={member4} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            Kamal <br/><br/>Design<br/>Consultant 
+                                            Kamal<br/><br/>Design<br/>Consultant 
                                         </p>
                                     </div>
                                 </div>
@@ -390,45 +296,9 @@ class Home extends Component{
                         </div>
                        </div>
                        <div className="home-page" id="contact">
-                       <div id="particle-container">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                </div>
+        
                        <div class="container my-5 py-5 z-depth-1">
                             <section class="px-md-5 mx-md-5 text-center dark-grey-text">
-
-                            <style>
-                          
-                            </style>
-
                           
                             <div id="map-container-google-1" class="z-depth-1 map-container mb-5">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5108730366255!2d77.62433485093614!3d12.93912811904483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15d42c30f4dd%3A0x10217d16a27c5108!2sRushbee%20Studio&#39;s!5e0!3m2!1sen!2sin!4v1587407760515!5m2!1sen!2sin" frameborder="0"
@@ -437,31 +307,32 @@ class Home extends Component{
           
 
               
-                            <div class="row d-flex justify-content-center mb-5">
+                            <div class="row d-flex justify-content-center">
 
                                 <div class="col-md-6 text-center">
 
-                                <h3 class="font-weight-bold">Contact Us</h3>
+                                <h3 class="font-weight-bold headers">Contact Us</h3>
 
-                     
-                                <div class="md-form md-outline mt-3">
-                                    <input type="email" id="form-email" class="form-control" placeholder="Email*" />
-                             
-                                </div>
-
-                              
-                                <div class="md-form md-outline">
-                                    <input type="text" id="form-subject" class="form-control" placeholder="Name*"/>
-                       
-                                </div>
-
+                                <form name="contact" method="POST" data-netlify="true">
+                                    <div class="md-form md-outline">
+                                        <input type="text" id="form-subject" class="form-control" name="name"placeholder="Name*"/>
                         
-                                <div class="md-form md-outline mb-3">
-                                    <textarea id="form-message" class="md-textarea form-control" rows="5" placeholder="Mobile no/Message*"></textarea>
-                                </div>
+                                    </div>
 
-                                <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i class="fa fa-paper-plane ml-2" aria-hidden="true"></i></button>
+                                    <div class="md-form md-outline mt-3">
+                                        <input type="email" id="form-email" class="form-control" name="email "placeholder="Email*" />
+                                    </div>
 
+                                
+                                 
+
+                            
+                                    <div class="md-form md-outline mb-3">
+                                        <textarea id="form-message" class="md-textarea form-control" rows="5" name="message" placeholder="Mobile no/Message*"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i class="fa fa-paper-plane ml-2" aria-hidden="true"></i></button>
+                                </form>
                                 </div>
                         
 
@@ -524,9 +395,9 @@ class Home extends Component{
                 </div>
        
             <div id="mobileview">
-                <img src={logomobile} alt="" className="mobilelogo"/>
+                <img src={logo} alt="" className="mobilelogo"/>
                 <iframe src="https://giphy.com/embed/Vc0B9I5lS4wI2qoMjI" width="480" height="457" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                <p style={{color: "black",  margin: "0 auto"}}>
+                <p style={{color: "white",  margin: "0 auto"}}>
                     For a better viewing experience,<br/>Kindly rotate your phone.
                 </p>
             </div>
