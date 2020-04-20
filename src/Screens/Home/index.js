@@ -154,21 +154,16 @@ class Home extends Component{
                     {/* this is why us page  */}
 
                     <div className="home-page" id="whyus">
-                        <div className="whyus">
-                            <div className="whySection">
-                                <img src={Sidevector} alt="" className="leftSvg"/>
-                            {/* <div class="leftSvg"  data-aos-easing="linear" data-aos-duration="1200">
-                                <svg id="bigCirclesSvg" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns="xlink=https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 780 1560" enable-background="new 0 0 780 1560" xml="space=preserve">
-                                    <path className="lineBig" stroke-dasharray="1000 1000" stroke-dashoffset="1000" fill="none" stroke="#F7B500" stroke-width="2" d="M0,6c427.5,0,774,341.5,774,769S427.5,1554,0,1554"></path>
-                                    <path className="lineMedium" fill="none" stroke="#F7B500" stroke-width="2" stroke-miterlimit="10" d="M0,199.5c320.6,0,580.5,254.9,580.5,575.5S320.6,1360.5,0,1360.5"></path>
-                                </svg>
-                            </div> */}
-                    
+                        <div>
+                        <div className="whyus-section">
+                            <div className="leftSvg">
+                                <img src={Sidevector} alt="" className="leftsvg"/>
                             </div>
-                            <div className="Rightphoto">
+                            <div className="rightSvg">
                                 <img src={whyusVector} className="whyusvector"/>
                             </div>
                            
+                        </div>
                         </div>
                     </div>
                    {/* This is client page */}
@@ -186,7 +181,7 @@ class Home extends Component{
                     </div>
                         {/* This is projects page */}
 
-                    <div className="Projects-page" id="projects" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="Projects-page home-page" id="projects" data-aos="fade-up" data-aos-duration="3000">
                         <div className="project-content">
                             <h1 className="project-header">Some of our key projects</h1>
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
@@ -295,7 +290,7 @@ class Home extends Component{
                         </div>
                        </div>
                     </div>
-                    <div className="" id="contact">
+                    <div className="home-page" id="contact">
                         <div className="contact-content">
                             <h1 style={{color:"#4B4B4B"}} className="contact-header">Stay In Touch</h1>
                             <div className="row row51">
