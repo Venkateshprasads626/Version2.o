@@ -188,7 +188,7 @@ class Home extends Component{
 
                     <div className="Projects-page" id="projects" data-aos="fade-up" data-aos-duration="3000">
                         <div className="project-content">
-                            <h1 className="project-header">Some Of Our Key Project</h1>
+                            <h1 className="project-header">Some of our key projects</h1>
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -249,7 +249,7 @@ class Home extends Component{
                                     <img src={member2} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            Venkatesh prasad<br/><br/>Technical<br/> Developer
+                                            Venkatesh<br/><br/>Technical<br/> Developer
                                         </p>
                                     </div>
                                 </div>

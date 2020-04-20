@@ -6,14 +6,9 @@ body{
     overflow-x: hidden;
     font-family: Poppins;
     background-color: #151F2D;
+    color: #98B1D5;
 }
-.error-image{
-  display: none;
-  width: 50%;
-  height: 50%;
-  margin-top: 120px;
-  margin-left: 100px;
-}
+
 h1{
   color: #4B4B4B;
 }
@@ -52,6 +47,18 @@ iframe{
   cursor: pointer;
 }
 
+.title{
+  color: black !important;
+}
+.contact-header{
+  color: #98B1D5 !important;
+}
+.map-image{
+  height: 200px !important;
+}
+#contact{
+  margin-bottom: 10% !important;
+}
 
 @media screen and (max-device-width: 767px) {
 
@@ -197,14 +204,14 @@ iframe{
   
   .leftSvg {
     margin-top: 30px;
-    width: 260px;
+    width: 280px;
     float: left;
   }
   .Rightphoto{
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
     float: right;
-    margin-top: -50%;
+    margin-top: 20%;
     margin-right: 5%;
   }
 
@@ -287,7 +294,8 @@ iframe{
   width: 200px;
 }
   .contact-header{
-    font-size: 25px;
+    font-size: 20px;
+    color: #98B1D5 !important;
   }
   .row51{
     margin-top: 6%;
@@ -296,6 +304,7 @@ iframe{
     color: white;
     font-size: 10px;
     text-align: start;
+    margin-top: 18%;
   }
   .phone-number{
     color: white;
@@ -354,6 +363,13 @@ iframe{
   .contact-text{
     font-size: 9.5px;
   }
+  .Team-header{
+    font-size: 20px !important;
+  }
+  .project-header{
+    font-size: 20px;
+    color: #98B1D5;
+  }
 }
 
 /* @media screen and (max-width: 800px) {
@@ -375,6 +391,7 @@ iframe{
   }
 
 } */
+
 
 
 @media screen and (min-width: 768px) {
