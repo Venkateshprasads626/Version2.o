@@ -10,7 +10,14 @@ import banner51 from '../../Images/banner51.svg'
 import banner61 from '../../Images/banner61.svg'
 import banner71 from '../../Images/banner71.svg'
 import whyusVector from '../../Images/whyusVector.svg'
-import member1 from '../../Images/member1.png'
+import member1 from '../../Images/member1.svg'
+import member2 from '../../Images/member2.svg'
+import member3 from '../../Images/member3.svg'
+import member4 from '../../Images/member4.svg'
+import member5 from '../../Images/member5.svg'
+import member6 from '../../Images/member6.svg'
+import logomobile from '../../Images/logomobile.svg'
+
 import Card1 from '../../Images/Card1.jpg'
 import Card2 from '../../Images/Card2.jpg'
 import Card3 from '../../Images/Card3.jpg'
@@ -21,16 +28,21 @@ import Card7 from '../../Images/Card7.jpg'
 import Card8 from '../../Images/Card8.jpg'
 
 import Carousel from '../../components/Carousel'
-import Project1 from '../../Images/Project1.png'
-import Project2 from '../../Images/Project2.png'
-import Project3 from '../../Images/Project3.png'
-import Project4 from '../../Images/Project4.png'
-import Project5 from '../../Images/Project5.png'
-import Project6 from '../../Images/Project6.png'
-import Project7 from '../../Images/Project7.png'
-import Project8 from '../../Images/Project8.png'
+import Project1 from '../../Images/Project1.svg'
+import Project2 from '../../Images/Project2.svg'
+import Project3 from '../../Images/Project3.svg'
+import Project4 from '../../Images/Project4.svg'
+import Project5 from '../../Images/Project5.svg'
+import Project6 from '../../Images/Project6.svg'
+import Project7 from '../../Images/Project7.svg'
+import Project8 from '../../Images/Project8.svg'
 import Phone from '../../Images/Phone.png'
-import mapApp from '../../Images/mapApp.png'
+import mapApp from '../../Images/mapApp.svg'
+
+import Sidevector from '../../Images/Sidevector.svg'
+import whyus1 from '../../Images/whyus1.svg'
+import whyus2 from '../../Images/whyus2.svg'
+import whyus3 from '../../Images/whyus3.svg'
 
 import siema from 'siema'
 import Projects from '../../components/Projects'
@@ -95,7 +107,7 @@ class Home extends Component{
                     </li>
                     <li>
                        
-                        <a href="#whoweare">Who we are ?</a>
+                        <a href="#whoweare">Who we are</a>
                     </li>
                     <li>
                   
@@ -144,12 +156,14 @@ class Home extends Component{
                     <div className="home-page" id="whyus">
                         <div className="whyus">
                             <div className="whySection">
-                            <div class="leftSvg"  data-aos-easing="linear" data-aos-duration="1200">
+                                <img src={Sidevector} alt="" className="leftSvg"/>
+                            {/* <div class="leftSvg"  data-aos-easing="linear" data-aos-duration="1200">
                                 <svg id="bigCirclesSvg" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns="xlink=https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 780 1560" enable-background="new 0 0 780 1560" xml="space=preserve">
                                     <path className="lineBig" stroke-dasharray="1000 1000" stroke-dashoffset="1000" fill="none" stroke="#F7B500" stroke-width="2" d="M0,6c427.5,0,774,341.5,774,769S427.5,1554,0,1554"></path>
                                     <path className="lineMedium" fill="none" stroke="#F7B500" stroke-width="2" stroke-miterlimit="10" d="M0,199.5c320.6,0,580.5,254.9,580.5,575.5S320.6,1360.5,0,1360.5"></path>
                                 </svg>
-                            </div>
+                            </div> */}
+                    
                             </div>
                             <div className="Rightphoto">
                                 <img src={whyusVector} className="whyusvector"/>
@@ -172,7 +186,9 @@ class Home extends Component{
                     </div>
                         {/* This is projects page */}
 
-                    <div className="Projects-page" id="projects" data-aos="fade-up" data-aos-duration="3000">>
+                    <div className="Projects-page" id="projects" data-aos="fade-up" data-aos-duration="3000">
+                        <div className="project-content">
+                            <h1 className="project-header">Some Of Our Key Project</h1>
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -208,6 +224,7 @@ class Home extends Component{
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
+                    </div>
                         </div>
                     </div>
                     <div className="home-page" id="socialmedia">
@@ -215,7 +232,7 @@ class Home extends Component{
                     </div>
                     <div className="home-page" id="whoweare">
                        <div className="Team-cards">
-                           <h1 style={{color: "#4B4B4B"}} className="contact-header">Team on Strike</h1>
+                           <h1 style={{color: "#98B1D5"}} className="Team-header">Team on Strike</h1>
                            <div className="cards ">
                             <div class="card" data-aos="flip-down" style={{width: "18rem"}}>
                                     <img src={Card1} class="card-img-top" alt="..." />
@@ -229,17 +246,17 @@ class Home extends Component{
 
                                 <div class="card" data-aos="flip-down" data-aos-delay="800" style={{width: "18rem"}}>
                                     <img src={Card2} class="card-img-top" alt="..." />
-                                    <img src={member1} class="profile-img" alt="..." />
+                                    <img src={member2} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            Venkatesh <br/><br/> Tecnical<br/> Developer
+                                            Venkatesh prasad<br/><br/>Technical<br/> Developer
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="card" data-aos="flip-down" data-aos-delay="1200" style={{width: "18rem"}}>
                                     <img src={Card3} class="card-img-top" alt="..." />
-                                    <img src={member1} class="profile-img" alt="..." />
+                                    <img src={member3} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
                                             Seshan <br/><br/> UI/UX<br/> Designer
@@ -247,31 +264,31 @@ class Home extends Component{
                                     </div>
                                 </div>
 
-                                <div class="card"  data-aos="fade-up" style={{width: "18rem"}}>
+                                <div class="card"   data-aos="flip-down" style={{width: "18rem"}}>
                                     <img src={Card4} class="card-img-top" alt="..." />
-                                    <img src={member1} class="profile-img" alt="..." />
+                                    <img src={member4} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            Rushianjam M <br/> Founder<br/>&<br/>Creative Head
+                                            N Manogaran <br/><br/>Design<br/>Consultant 
                                         </p>
                                     </div>
                                 </div>
-                                <div class="card" data-aos="fade-up"  style={{width: "18rem"}}>
+                                <div class="card"  data-aos="flip-down" data-aos-delay="800" style={{width: "18rem"}}>
                                     <img src={Card5} class="card-img-top" alt="..." />
-                                    <img src={member1} class="profile-img" alt="..." />
+                                    <img src={member5} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            Rushianjam M <br/> Founder<br/>&<br/>Creative Head
+                                            Jothi Ganesh <br/><br/>Organization Growth<br/>Consultant
                                         </p>
                                     </div>
                                 </div>
 
-                                <div class="card" data-aos="fade-up"  data-aos-delay="800" style={{width: "18rem"}}>
+                                <div class="card"  data-aos="flip-down"  data-aos-delay="1200" style={{width: "18rem"}}>
                                     <img src={Card6} class="card-img-top" alt="..." />
-                                    <img src={member1} class="profile-img" alt="..." />
+                                    <img src={member6} class="profile-img" alt="..." />
                                     <div class="card-body">
                                         <p className="title">
-                                            Rushianjam M <br/> Founder<br/>&<br/>Creative Head
+                                            Vivek M <br/><br/>Tech Development<br/>Consultant
                                         </p>
                                     </div>
                                 </div>
@@ -283,7 +300,7 @@ class Home extends Component{
                             <h1 style={{color:"#4B4B4B"}} className="contact-header">Stay In Touch</h1>
                             <div className="row row51">
                                 <div className="col-md-4 map-image">
-                                    <img src={mapApp} alt="" />
+                                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391281,77.6243349,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15d42c30f4dd:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank"   ><img src={mapApp} alt="" className="map-image"/></a>
                                 </div>
                                 <div className="col-md-4">
                                     <form name="contact" method="POST" data-netlify="true">
@@ -328,8 +345,13 @@ class Home extends Component{
                     </div>
                 </div>
             </div>
-                <img src={Phone} className="error-image" />
-                <h6>Please Turn your Phone into Landscapemode. We will not support Portriate Mode</h6>
+            <div id="mobileview">
+                <img src={logomobile} alt="" className="mobilelogo"/>
+                <iframe src="https://giphy.com/embed/Vc0B9I5lS4wI2qoMjI" width="480" height="457" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p style={{color: "black",  margin: "0 auto"}}>
+                    For a better viewing experience,<br/>Kindly rotate your phone.
+                </p>
+            </div>
             </div>
           
         );

@@ -17,13 +17,19 @@ body{
 h1{
   color: #4B4B4B;
 }
-h6{
+#mobileview{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 25px;
   display: none;
   position: absolute;
+  margin-top: -10%;
+}
+.mobilelogo{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: none;
 }
 @keyframes dash {
   from {
@@ -34,11 +40,18 @@ h6{
   }
 } 
 
-#bigCirclesSvg path {
-  stroke-dasharray: 800;
-  stroke-dashoffset: 0;  
-  animation: dash 5s linear;
+iframe{
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
 }
+
+.map-image{
+  cursor: pointer;
+}
+
 
 @media screen and (max-device-width: 767px) {
 
@@ -179,27 +192,21 @@ h6{
   /* this is whyus page */
 
   #whyus{
-    height: 130vh;
-
+    height: 100vh !important;
   }
-
-  .whySection .leftSvg {
-    left: 0;
-    z-index: 0;
-    top: -380px;
-}
-.whySection .leftSvg svg{
-   width: 220px;
-   float: left;
-}
-.Rightphoto{
-  width: 260px;
-  height: 260px;
-  float: right;
-  margin-top: 19%;
-  margin-right: 2%;
-}
-
+  
+  .leftSvg {
+    margin-top: 30px;
+    width: 260px;
+    float: left;
+  }
+  .Rightphoto{
+    width: 260px;
+    height: 260px;
+    float: right;
+    margin-top: -50%;
+    margin-right: 5%;
+  }
 
   /* this is client page */
 
@@ -244,18 +251,28 @@ h6{
   .profile-img{
     width: 3rem;
     height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-top: -3.5rem;
+    margin-top: -4.5rem;
     z-index: 999;
     position: relative;
+    border: 3px solid white;
+    
   }
   .title{
-    font-size: 10px;
+    font-size: 8px;
     margin-top: -50px;
   }
 
   /* this is contact page */
+
+.map-image{
+  height: 200px;
+}
+
+
 #contact{
   height: 100vh;
 }
@@ -339,7 +356,7 @@ h6{
   }
 }
 
-/* @media screen and (max-width: 860px) {
+/* @media screen and (max-width: 800px) {
   .sidenav{
     padding-top: 10px !important;
   }
@@ -372,20 +389,20 @@ h6{
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: #151F2D;
+      background-color: #1C293C;
       overflow-x: hidden;
-      padding-top: 20px;
+   
     }
 
     .sidenav a {
       padding: 0px 0px 0px 16px;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 12px;
       color: white;
       display: block;
       text-align: start;
-
     }
+
     li{
       list-style: none;
     }
@@ -396,14 +413,11 @@ h6{
     ul li.active a{
       color: #F7B500 !important;
     }
-    ul{
-      margin-top: 20%;
-    }
+  
     li {
       overflow: hidden;
       position: relative;
-      padding: 0 0 50px 10px;
-
+      padding: 0 0 10px 10px;
       }
       li::before {
         content: '';
@@ -425,7 +439,6 @@ h6{
         top: 0;
         width: 16px;
         height: 16px;
-
         border: 2px solid  #433F33;
         border-radius: 50%;
         }
@@ -500,27 +513,24 @@ h6{
 
     /* this is whyus page */
     #whyus{
-      height: 80vh;
+      height: 100vh !important;
+    }
+    
+    .leftSvg {
+      margin-top: 30px;
+      width: 280px;
+      float: left;
+    }
+    .Rightphoto{
+      width: 260px;
+      height: 260px;
+      float: right;
+      margin-top: 20%;
+      margin-right: 2%;
     }
 
-    .whySection .leftSvg {
-      left: 0;
-      z-index: 0;
-      top: -380px;
-  }
-  .whySection .leftSvg svg{
-     width: 220px;
-     float: left;
-  }
-  .Rightphoto{
-    width: 260px;
-    height: 260px;
-    float: right;
-    margin-top: 19%;
-    margin-right: 2%;
-  }
 
-  
+
     /* this is client page */
   
     .client-header1{
@@ -543,6 +553,7 @@ h6{
     }
 
     /* Our Team Page */
+  
     .Team-cards{
       margin-top: 20px;
     }
@@ -564,11 +575,15 @@ h6{
     .profile-img{
       width: 3rem;
       height: 3rem;
+      object-fit: cover;
+      border-radius: 50%;
       justify-content: center;
       align-items: center;
-      margin-top: -3.5rem;
+      margin-top: -4.5rem;
       z-index: 999;
       position: relative;
+      border: 3px solid white;
+      
     }
     .title{
       font-size: 10px;
@@ -576,6 +591,9 @@ h6{
     }
 
     /* this is contact page */
+    .map-image{
+      height: 300px;
+    }
     #contact{
       height: 100vh;
     }
@@ -666,6 +684,14 @@ h6{
  .sidenav a {
    font-size: 15px;
  }
+ ul{
+   margin-top: 20%;
+ }
+ li {
+  overflow: hidden;
+  position: relative;
+  padding: 0 0 50px 10px;
+  }
  .main {
   margin-left: 200px; 
   font-size: 28px;
@@ -685,7 +711,19 @@ h6{
   .innernext{
     margin-left: -17%;
   }
-  .whySection .leftSvg svg{
+  .leftSvg {
+    margin-top: 30px;
+    width: 420px;
+    float: left;
+  }
+  .Rightphoto{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-top: 20%;
+    margin-right: 2%;
+  }
+  /* .whySection .leftSvg svg{
     width: 300px;
     float: left;
  }
@@ -695,7 +733,7 @@ h6{
    float: right;
    margin-top: 19%;
    margin-right: 3%;
- }
+ } */
 
   #clients{
     margin-bottom: 10%;
@@ -705,9 +743,9 @@ h6{
     height: 13rem;
   }
   .profile-img{
-    width: 6rem;
-    height: 6rem;
-    margin-top: -4rem;
+    width: 5rem;
+    height: 5rem;
+    margin-top: -6rem;
   }
   .title{
     font-size: 13px;
@@ -761,6 +799,21 @@ h6{
     width: 80px;
   }
   #whyus{
+    height: 120vh !important;
+  }
+  .leftSvg {
+    margin-top: 30px;
+    width: 750px;
+    float: left;
+  }
+  .Rightphoto{
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin-top: 28%;
+    
+  }
+  /* #whyus{
     height: 125vh;
   }
   .whySection .leftSvg svg{
@@ -772,6 +825,13 @@ h6{
    height: 500px;
    float: right;
    margin-top: 21%;
+ } */
+
+ .project-content{
+   margin-top: 10% !important;
+ }
+ .project-header{
+   color: #98B1D5;
  }
   .client-header1{
     font-size: 25px;
@@ -797,16 +857,20 @@ h6{
     margin: 2rem;
   }
   .profile-img{
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
     margin-top: -7rem;
   }
   .title{
     font-size: 20px;
-    margin-top: -40px;
+    margin-top: -5px;
   }
   
   /* this is contact page */
+  .map-image{
+    width: 100%;
+    height: 450px;
+  }
   .contact-content{
     margin-top: 8%;
   }
@@ -887,14 +951,16 @@ h6{
 @media screen and (orientation:portrait) {
   .Full-page{
     display: none;
-    background: white;
+
   }
-  h6{
+#mobileview{
+  display: block;
+}
+  .mobilelogo{
     display: block;
-    color: white;
   }
-  .error-image{
-    display: block;
+  body{
+    background: #b8dff0;
   }
 }
 
