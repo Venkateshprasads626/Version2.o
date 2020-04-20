@@ -53,12 +53,8 @@ iframe{
 .contact-header{
   color: #98B1D5 !important;
 }
-.map-image{
-  height: 200px !important;
-}
-#contact{
-  margin-bottom: 10% !important;
-}
+
+
 
 @media screen and (max-device-width: 767px) {
 
@@ -272,102 +268,54 @@ iframe{
   }
 
   /* this is contact page */
-
-.map-image{
-  height: 200px;
-}
-
-
-#contact{
-  height: 100vh;
-}
-.contact-content{
-  position: absolute;
-  margin-top: 50px;
-}
-.map-image{
-  width: 200px;
-}
-.col-md-4{
-  width: 200px;
-}
-  .contact-header{
-    font-size: 20px;
-    color: #98B1D5 !important;
+  #contact{
+    position: absolute;
+    height: 100vh;
   }
-  .row51{
-    margin-top: 6%;
+  .contact-header{
+    font-size: 25px;
   }
   .contact-text{
-    color: white;
-    font-size: 10px;
-    text-align: start;
-    margin-top: 18%;
-  }
-  .phone-number{
-    color: white;
     font-size: 12px;
     text-align: start;
+    color: white;
+    margin-left: 30px;
   }
-  .fa-map-marker,.fa-envelope-o,.fa-phone{
-    color: orange;
-    font-size: 15px;
-    margin-right: 3%;
+  .phone-number{
+    font-size: 13px;
+    text-align: start;
+    color: white;
+    margin-left: 30px;
   }
-
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .col {
-    float: left;
+  form{
     width: 50%;
   }
-  .textboxtop {
-    border-bottom: 1px solid #666666;
-    margin-bottom: 40px;
+  .text-center{
+    margin: 0 auto;
+  }
+  .btnprimary{
+    border: 50px;
+    color: white;
+    background: orange;
+    width: 6rem;
+    text-align: center !important;
+    margin:0 auto !important;
+    float: none !important;
   }
 
-  .textboxtop input {
-    border: none;
-    outline: none;
+  .form-group input{
     background: #151F2D;
-    width: 100%;
-    color: white;
-    font-size: 13px;
   }
-  .textbox input{
-    border: none;
-    outline: none;
-    background: #151F2D;
-    color: white;
-    width: 100%;
-    font-size: 13px;
+  .Map-image{
+    height: 180px;
   }
-  .textbox{
-    border-bottom: 1px solid #666666;
-    margin-bottom: 40px;
-  }
-  .contact-button{
-    width: 10em !important;
-    border-radius: 50px;
-    border: none !important;
-    color: black !important;
-    background: #EBCB80 !important;
-    margin: 0 auto;
-    font-size: 15px;
-  }
-  .contact-text{
-    font-size: 9.5px;
-  }
-  .Team-header{
-    font-size: 20px !important;
-  }
-  .project-header{
-    font-size: 20px;
-    color: #98B1D5;
-  }
+ .fa-map-marker,.fa-envelope-o,.fa-phone{
+   color: orange;
+   font-size: 15px;
+   margin-left: -80px;
+   margin-top: 1px;
+   position: absolute;
+ }
 }
 
 
@@ -583,82 +531,55 @@ iframe{
     }
 
     /* this is contact page */
-    .map-image{
-      height: 300px;
-    }
     #contact{
-      height: 100vh;
-    }
-    .contact-content{
-      margin-top: 25%;
       position: absolute;
+      height: 100vh;
     }
     .contact-header{
       font-size: 25px;
     }
-    .row51{
-      margin-top: 6%;
-    }
     .contact-text{
-      color: white;
-      font-size: 10px;
-      text-align: start;
-    }
-    .phone-number{
-      color: white;
       font-size: 12px;
       text-align: start;
-    }
-    .fa-map-marker,.fa-envelope-o,.fa-phone{
-      color: orange;
-      font-size: 15px;
-      margin-right: 3%;
-    }
-
-    .row::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    .col {
-      float: left;
-      width: 50%;
-    }
-    .textboxtop {
-      border-bottom: 1px solid #666666;
-      margin-bottom: 40px;
-    }
-
-    .textboxtop input {
-      border: none;
-      outline: none;
-      background: #151F2D;
-      width: 100%;
       color: white;
-      font-size: 13px;
+      margin-left: 30px;
     }
-    .textbox input{
-      border: none;
-      outline: none;
-      background: #151F2D;
+    .phone-number{
+      font-size: 13px;
+      text-align: start;
       color: white;
+      margin-left: 30px;
+    }
+    form{
       width: 100%;
-      font-size: 13px;
     }
-    .textbox{
-      border-bottom: 1px solid #666666;
-      margin-bottom: 40px;
-    }
-    .contact-button{
-      width: 10em !important;
-      border-radius: 50px;
-      border: none !important;
-      color: black !important;
-      background: #EBCB80 !important;
+    .text-center{
       margin: 0 auto;
-      font-size: 15px;
     }
- 
+    .btnprimary{
+      border: 50px;
+      color: white;
+      background: orange;
+      width: 6rem;
+      text-align: center !important;
+      margin:0 auto !important;
+      float: none !important;
+    }
+  
+    .form-group input{
+      background: #151F2D;
+    }
+    .Map-image{
+      height: 180px;
+    }
+   .fa-map-marker,.fa-envelope-o,.fa-phone{
+     color: orange;
+     font-size: 15px;
+     margin-left: -80px;
+     margin-top: 1px;
+     position: absolute;
+   }
+
 }
 
 
@@ -721,7 +642,7 @@ iframe{
   }
   .card{
     width: 10rem !important;
-    height: 13rem;
+    height: 14rem;
   }
   .profile-img{
     width: 5rem;
@@ -730,18 +651,38 @@ iframe{
   }
   .title{
     font-size: 13px;
-    margin-top: -40px;
+    margin-top: -45px;
   }
   /* this is contact page */
- 
-  .contact-text{
-    font-size: 15px;
+  form{
+    width: 100%;
   }
-  .textboxtop input {
-    font-size: 15px;
+  .text-center{
+    margin: 0 auto;
   }
-  .textbox input{
+  .Map-image{
+    width: 100%;
+    height: 280px;
+  }
+  .btnprimary{
+    border: 50px;
+    color: white;
+    background: orange;
+    width: 6rem;
+    text-align: center !important;
+    margin:0 auto !important;
+    float: none !important;
+  }
+
+  .form-group input{
+    background: #151F2D;
+  }
+  .fa-map-marker,.fa-envelope-o,.fa-phone{
+    color: orange;
     font-size: 15px;
+    margin-left: -120px;
+    margin-top: 1px;
+    position: absolute;
   }
 }
 @media screen and (min-width: 1024) {
@@ -821,74 +762,8 @@ iframe{
   }
   
   /* this is contact page */
-  .map-image{
-    width: 100%;
-    height: 450px;
-  }
-  .contact-content{
-    margin-top: 8%;
-  }
-  .col {
-    float: left;
-    width: 100% !important;
-  }
-  .row41{
-    width: 100%;
-    max-width: 97%;
-  }
-.form-box{
-  margin-top: 10%;
-}
-  .textboxtop {
-    border-bottom: 1px solid #666666;
-    margin-bottom: 40px;
-  }
 
-  .textboxtop input {
-    border: none;
-    outline: none;
-    background: #151F2D;
-    width: 100%;
-    color: white;
-    font-size: 25px;
-  }
-  .textbox input{
-    border: none;
-    outline: none;
-    background: #151F2D;
-    color: white;
-    width: 100%;
-    font-size: 25px;
-  }
-  .textbox{
-    border-bottom: 1px solid #666666;
-    margin-bottom: 40px;
-    margin-left: 10px;
-
-  }
-  .contact-button{
-    width: 10em !important;
-    border-radius: 50px;
-    border: none !important;
-    color: black !important;
-    background: #EBCB80 !important;
-    margin: 0 auto;
-    font-size: 32px;
-  }
-  .contact-text{
-    font-size: 23px;
-  }
-  .address-text{
-    margin-top: 40px;
-    width: 100%;
-    max-width: 98%;
-  }
-  .fa-map-marker,.fa-envelope-o,.fa-phone{
-    font-size: 23px;
-  }
-  .phone-number{
-    font-size: 23px;
-  }
+  
 }
 
 @media screen and (min-width: 1200px) {
@@ -978,73 +853,52 @@ iframe{
   }
   
   /* this is contact page */
-  .map-image{
-    width: 100%;
-    height: 450px;
-  }
+
   .contact-content{
-    margin-top: 8%;
-  }
-  .col {
-    float: left;
-    width: 100% !important;
-  }
-  .row41{
     width: 100%;
-    max-width: 97%;
-  }
-.form-box{
-  margin-top: 10%;
-}
-  .textboxtop {
-    border-bottom: 1px solid #666666;
-    margin-bottom: 40px;
-  }
+ 
+ 
+    margin-top: 10%;
 
-  .textboxtop input {
-    border: none;
-    outline: none;
-    background: #151F2D;
-    width: 100%;
-    color: white;
-    font-size: 25px;
-  }
-  .textbox input{
-    border: none;
-    outline: none;
-    background: #151F2D;
-    color: white;
-    width: 100%;
-    font-size: 25px;
-  }
-  .textbox{
-    border-bottom: 1px solid #666666;
-    margin-bottom: 40px;
-    margin-left: 10px;
-
-  }
-  .contact-button{
-    width: 10em !important;
-    border-radius: 50px;
-    border: none !important;
-    color: black !important;
-    background: #EBCB80 !important;
-    margin: 0 auto;
-    font-size: 32px;
   }
   .contact-text{
-    font-size: 23px;
-  }
-  .address-text{
-    margin-top: 40px;
-    width: 100%;
-    max-width: 98%;
-  }
-  .fa-map-marker,.fa-envelope-o,.fa-phone{
-    font-size: 23px;
+    font-size: 22px;
   }
   .phone-number{
-    font-size: 23px;
+    font-size: 25px;
+  }
+  .Map-image{
+    height: 300px;
+  }
+  form{
+    width: 100%;
+  }
+  .text-center{
+    margin: 0 auto;
+  }
+  .form-group{
+    margin-top: 5%;
+  }
+  .btnprimary{
+    border: 50px;
+    color: white;
+    background: orange;
+    width: 6rem;
+    text-align: center !important;
+    margin:0 auto !important;
+    float: none !important;
+  }
+
+  .form-group input{
+    margin-bottom: 10%;
+    background: #151F2D;
+  }
+  .fa-map-marker,.fa-envelope-o,.fa-phone{
+    color: orange;
+    font-size: 25px;
+    margin-left: -200px;
+    margin-top: 5px;
+    position: absolute;
   }
 }
  
@@ -1059,7 +913,15 @@ iframe{
     margin-left: 52%;
     margin-top: -560px;
   }
-  
+@media screen and (min-width: 2560px) {
+  .fa-map-marker,.fa-envelope-o,.fa-phone{
+    color: orange;
+    font-size: 25px;
+    margin-left: -240px;
+    margin-top: 5px;
+    position: absolute;
+  }
+}
  
 }
 

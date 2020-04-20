@@ -181,7 +181,7 @@ class Home extends Component{
                     </div>
                         {/* This is projects page */}
 
-                    <div className="Projects-page home-page" id="projects" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="Projects-page home-page" id="projects" data-aos="fade-down" data-aos-duration="3000">
                         <div className="project-content">
                             <h1 className="project-header">Some of our key projects</h1>
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
@@ -295,41 +295,42 @@ class Home extends Component{
                             <h1 style={{color:"#4B4B4B"}} className="contact-header">Stay In Touch</h1>
                             <div className="row row51">
                                 <div className="col-md-4 map-image">
-                                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391281,77.6243349,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15d42c30f4dd:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank"   ><img src={mapApp} alt="" className="map-image"/></a>
+                                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391281,77.6243349,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15d42c30f4dd:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank"   ><img src={mapApp} alt="" className="Map-image"/></a>
                                 </div>
                                 <div className="col-md-4">
-                                    <form name="contact" method="POST" data-netlify="true">
-                                    <div className="form-box">
-                                        <div className="row row41">
-                                            <div className="col">
-                                                <div className="textboxtop">
-                                                    <input type="text" placeholder="Name*" name="name" />
-                                                </div>
-                                            </div>
-                                            <div className="col">
-                                                <div className="textboxtop">
-                                                    <input type="email" placeholder="Email*" name="email" />
-                                                </div>
-                                            </div>
-                                            <div className="textbox">
-                                                <input type="text" placeholder="Message*" name="message"/>
-                                            </div>
-                                            <button type="submit" className="contact-button" value="submit">Submit</button> 
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                   
+                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name*" />
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                   
+                                            <input type="email" class="form-control" id="inputPassword4" placeholder="Email*"/>
                                         </div>
                                     </div>
-                                    </form>
-                                </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Message*" />
+                                    </div>
+                                    <div className="text-center">
+                                        <button type="submit" class="btn btnprimary text-center">Submit</button>
+                                    </div>
+                       
+                                </form>
+                                </div>                          
+                           
+                          
                                 <div className="col-md-4" >
                                     <div className="address-text">
-                                    <p className="contact-text"><i class="fa fa-map-marker" aria-hidden="true"></i><span></span>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i><p className="contact-text">
                                                 No 12, 3rd cross, Patel Narayan<br/>
                                                 Reddy Layout, Ejipura, 6th Block,<br/>
                                                 Koramangala, Bengaluru, 560095
                                     </p>
-                                    <p className="contact-text"><i class="fa fa-envelope-o" aria-hidden="true"></i><span></span>
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i><p className="contact-text">
                                          reachus@rushbeestudios.com
                                     </p>
-                                    <p className="phone-number"><i class="fa fa-phone" aria-hidden="true"></i>
+                                    <i class="fa fa-phone" aria-hidden="true"></i><p className="phone-number">
                                         +91 8296503397
                                     </p>
                                     </div>
