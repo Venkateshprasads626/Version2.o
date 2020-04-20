@@ -50,6 +50,7 @@ import siema from 'siema'
 
 
 class Home extends Component{
+
     componentDidMount = () =>{
 
         // outer
@@ -75,7 +76,7 @@ class Home extends Component{
             $(this).addClass('active').siblings().removeClass('active')
         })
     
-      
+     
      
     }
     render() {
@@ -84,7 +85,7 @@ class Home extends Component{
                    
             <div className="Full-page">
            
-               <div class="sidenav">
+               <div class="sidenav" id="sidenav">
                    <div className="logo">
                        <img src={logo} alt="" className="logo"/>
                    </div>

@@ -301,7 +301,10 @@ iframe{
       font-size: 15px;
     }
 
-
+    .headers{
+      font-size: 20px !important;
+      color: #98B1D5;
+    }
 }
 
 
